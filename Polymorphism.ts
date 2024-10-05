@@ -1,5 +1,5 @@
 type SuperPrint = {
-    <TypePlaceholder>(arr:TypePlaceholder[]):void
+    <T>(arr:T[]): T
     
 }
 
