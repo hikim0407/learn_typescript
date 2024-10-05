@@ -3,11 +3,9 @@ type SuperPrint = {
     
 }
 
-const superPrint: SuperPrint = (arr) => {
-    arr.forEach(item => console.log(item));
-}
+const superPrint: SuperPrint = (arr) => arr[0];
 
-superPrint([1, 2, 3, 4]);
-superPrint([true, false]);
-superPrint([1, 2, true, false]);
-superPrint([1, 2, "true", false]);
+const a = superPrint([1, 2, 3, 4]);
+const b = superPrint([true, false]);
+const c = superPrint([1, 2, true, false]);
+const d = superPrint([1, 2, "true", false]);
