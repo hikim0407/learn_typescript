@@ -1,6 +1,13 @@
+/*
+type SuperPrint = {
+    (arr:number[]):void
+    (arr:boolean[]):void
+    (arr:string[]):void
+    (arr:(number|boolean)[]):void
+}
+*/
 type SuperPrint = {
     <T>(arr:T[]): T
-    
 }
 
 const superPrint: SuperPrint = (arr) => arr[0];
